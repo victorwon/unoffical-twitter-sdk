@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69E70E7F14845EDE004A66CA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E70E7E14845EDE004A66CA /* libz.dylib */; };
+		69E70E82148460BA004A66CA /* DEHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E70E81148460BA004A66CA /* DEHTTPRequest.m */; };
 		6EC6750413A7A3D50050E618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC6750313A7A3D50050E618 /* UIKit.framework */; };
 		6EC6750613A7A3D50050E618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC6750513A7A3D50050E618 /* Foundation.framework */; };
 		6EC6750813A7A3D50050E618 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC6750713A7A3D50050E618 /* CoreGraphics.framework */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		69E70E7E14845EDE004A66CA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		69E70E80148460BA004A66CA /* DEHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEHTTPRequest.h; sourceTree = "<group>"; };
+		69E70E81148460BA004A66CA /* DEHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEHTTPRequest.m; sourceTree = "<group>"; };
 		6EC674FF13A7A3D50050E618 /* unoffical-twitter-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unoffical-twitter-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC6750313A7A3D50050E618 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EC6750513A7A3D50050E618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +230,8 @@
 				6EC6755D13A7A4FA0050E618 /* OAuth+UserDefaults.m */,
 				6EC6755E13A7A4FA0050E618 /* OAuth.h */,
 				6EC6755F13A7A4FA0050E618 /* OAuth.m */,
+				69E70E80148460BA004A66CA /* DEHTTPRequest.h */,
+				69E70E81148460BA004A66CA /* DEHTTPRequest.m */,
 			);
 			path = Guts;
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 				6EC6757813A7A4FA0050E618 /* OAuth+UserDefaults.m in Sources */,
 				6EC6757913A7A4FA0050E618 /* OAuth.m in Sources */,
 				6EC6759813A7A79C0050E618 /* MainWindowController.m in Sources */,
+				69E70E82148460BA004A66CA /* DEHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

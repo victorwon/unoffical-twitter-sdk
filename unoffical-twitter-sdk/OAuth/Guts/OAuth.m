@@ -9,8 +9,8 @@
 #include <CommonCrypto/CommonDigest.h>
 #import "OAHMAC_SHA1SignatureProvider.h"
 #import "NSString+URLEncoding.h"
-#import "ASIFormDataRequest.h"
 #import "OAuthTwitterCallbacks.h"
+#import "DEHTTPRequest.h"
 
 @implementation OAuth
 
@@ -177,7 +177,7 @@
 	NSString *oauth_header = [self oAuthHeaderForMethod:@"POST" andUrl:url andParams:params];
 	
 	// Synchronously perform the HTTP request.
-	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
+	DEHTTPRequest *request = [DEHTTPRequest requestWithURL:[NSURL URLWithString:url]];
 	request.requestMethod = @"POST";
 	[request addRequestHeader:@"Authorization" value:oauth_header];
 	[request startSynchronous];
@@ -222,7 +222,7 @@
 	
 	NSString *oauth_header = [self oAuthHeaderForMethod:@"POST" andUrl:url andParams:params andTokenSecret:oauth_token_secret];
 
-	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
+	DEHTTPRequest *request = [DEHTTPRequest requestWithURL:[NSURL URLWithString:url]];
 	request.requestMethod = @"POST";
 	[request addRequestHeader:@"Authorization" value:oauth_header];
 	[request startSynchronous];
@@ -261,7 +261,7 @@
 	
 	NSString *oauth_header = [self oAuthHeaderForMethod:@"GET" andUrl:url andParams:nil];
 	
-	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
+	DEHTTPRequest *request = [DEHTTPRequest requestWithURL:[NSURL URLWithString:url]];
 	request.requestMethod = @"GET";
 	[request addRequestHeader:@"Authorization" value:oauth_header];
 	[request startSynchronous];
