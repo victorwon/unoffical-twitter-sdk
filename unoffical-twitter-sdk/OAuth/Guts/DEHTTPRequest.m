@@ -46,7 +46,7 @@
 {
     self = [super init];
     if (self) {
-        _url = newURL;
+        _url = [newURL retain];
         _requestFinished = NO;
     }
     return self;
