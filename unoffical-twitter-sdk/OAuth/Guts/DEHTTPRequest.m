@@ -82,7 +82,6 @@
     
     while (self.requestFinished == NO) {
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
-        NSLog(@"sleeping...");
     }
 }
 
