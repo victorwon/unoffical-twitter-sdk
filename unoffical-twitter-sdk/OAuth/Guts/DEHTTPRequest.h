@@ -6,6 +6,8 @@
 //  Copyright (c) 2011 Double Encore Inc. All rights reserved.
 //
 // A quick class that mimics ASIHTTPRequest
+// Warning! This is not a full ASIHTTPRequest replacement.
+// It only does what is necessary to authenticate with Twitter.
 
 #import <Foundation/Foundation.h>
 
