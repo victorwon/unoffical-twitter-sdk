@@ -288,6 +288,7 @@
 		6EC674F613A7A3D40050E618 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Lloyd Sparkes";
 			};
 			buildConfigurationList = 6EC674F913A7A3D40050E618 /* Build configuration list for PBXProject "unoffical-twitter-sdk" */;
