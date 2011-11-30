@@ -38,12 +38,14 @@
 	[self saveOAuthContextToUserDefaults:_oAuth];
 	[[NSUserDefaults standardUserDefaults] setObject:_oAuth.user_id forKey:@"user_id"];
 	[[NSUserDefaults standardUserDefaults] setObject:_oAuth.screen_name forKey:@"screen_name"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void) saveOAuthContextToUserDefaults:(OAuth *)_oAuth {
 	[[NSUserDefaults standardUserDefaults] setObject:_oAuth.oauth_token forKey:@"oauth_token"];
 	[[NSUserDefaults standardUserDefaults] setObject:_oAuth.oauth_token_secret forKey:@"oauth_token_secret"];
 	[[NSUserDefaults standardUserDefaults] setInteger:_oAuth.oauth_token_authorized forKey:@"oauth_token_authorized"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 @end
