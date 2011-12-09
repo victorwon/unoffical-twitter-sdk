@@ -37,7 +37,7 @@
     
     NSLog(@"Twitter Login Button Pushed");
     
-    oAuth = [[OAuth alloc] initWithConsumerKey:OAUTH_CONSUMER_KEY andConsumerSecret:OAUTH_CONSUMER_SECRET];
+    oAuth = [[OAuth alloc] initWithConsumerKey:kDEConsumerKey andConsumerSecret:kDEConsumerSecret];
     
     TwitterDialog *td = [[TwitterDialog alloc] init];
     td.twitterOAuth = oAuth;
