@@ -132,7 +132,7 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-    self.responseString = [[NSString alloc] initWithData:self.responseData encoding:NSUTF8StringEncoding];
+    self.responseString = [[[NSString alloc] initWithData:self.responseData encoding:NSUTF8StringEncoding] autorelease];
     self.requestFinished = YES;
 }
 
