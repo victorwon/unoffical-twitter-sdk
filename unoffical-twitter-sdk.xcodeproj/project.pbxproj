@@ -86,7 +86,6 @@
 		6EC6755D13A7A4FA0050E618 /* OAuth+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+UserDefaults.m"; sourceTree = "<group>"; };
 		6EC6755E13A7A4FA0050E618 /* OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth.h; sourceTree = "<group>"; };
 		6EC6755F13A7A4FA0050E618 /* OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuth.m; sourceTree = "<group>"; };
-		6EC6756013A7A4FA0050E618 /* OAuthConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumerCredentials.h; sourceTree = "<group>"; };
 		6EC6756213A7A4FA0050E618 /* OAuthTwitterCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthTwitterCallbacks.h; sourceTree = "<group>"; };
 		6EC6756313A7A4FA0050E618 /* TwitterLoginPopupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginPopupDelegate.h; sourceTree = "<group>"; };
 		6EC6756413A7A4FA0050E618 /* TwitterLoginUiFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginUiFeedback.h; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 		6EC6759413A7A6A70050E618 /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		6EC6759613A7A79C0050E618 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
 		6EC6759713A7A79C0050E618 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		7B0252BE1492875F00093F6A /* OAuthConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumerCredentials.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +213,8 @@
 		6EC6753A13A7A4FA0050E618 /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
+				7B0252BE1492875F00093F6A /* OAuthConsumerCredentials.h */,
 				6EC6753B13A7A4FA0050E618 /* Guts */,
-				6EC6756013A7A4FA0050E618 /* OAuthConsumerCredentials.h */,
 				6EC6756113A7A4FA0050E618 /* Protocols */,
 			);
 			path = OAuth;
