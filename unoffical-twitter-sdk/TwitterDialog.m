@@ -365,8 +365,9 @@ static CGFloat kBorderWidth = 10;
     NSLog(@"%@", [url absoluteString]);
     if ([host isEqualToString:@"google.co.uk"]) {
         NSLog(@"At Yatterbox");
-        if ([[url.resourceSpecifier substringToIndex:8] isEqualToString:@"//cancel"]) {
-        
+        if ([[url.resourceSpecifier substringToIndex:8] isEqualToString:@"//cancel"] || 
+            [url.resourceSpecifier rangeOfString:@"?denied="].location != NSNotFound) {
+            [self cancel];
         } else {
             NSLog(@"Suceeded Now Getting Access Token");
             [self dialogDidSucceed:url];
