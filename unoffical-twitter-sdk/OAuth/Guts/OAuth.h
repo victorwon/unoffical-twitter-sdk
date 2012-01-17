@@ -35,10 +35,8 @@
 		*user_id,
 		*screen_name;
 	
-	// YES if this token has been authorized and can be used for production calls.
-	// You need to save and load the state of this yourself, but you don't need to
-	// modify it during runtime.
-	BOOL oauth_token_authorized;	
+    // Comment out this IVAR because this causes an LLVM 3.0 compiler error.
+//	BOOL oauth_token_authorized;	
 	
 	id<OAuthTwitterCallbacks> delegate;
 }
@@ -67,6 +65,10 @@
 - (NSArray *) oauth_base_components;
 
 @property (assign) id<OAuthTwitterCallbacks> delegate;
+
+// YES if this token has been authorized and can be used for production calls.
+// You need to save and load the state of this yourself, but you don't need to
+// modify it during runtime.
 @property (assign) BOOL oauth_token_authorized;
 @property (copy) NSString *oauth_token;
 @property (copy) NSString *oauth_token_secret;
