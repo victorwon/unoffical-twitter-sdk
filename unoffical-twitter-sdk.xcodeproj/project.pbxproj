@@ -29,7 +29,6 @@
 		6EC6757513A7A4FA0050E618 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6755613A7A4FA0050E618 /* OAHMAC_SHA1SignatureProvider.m */; };
 		6EC6757613A7A4FA0050E618 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6755813A7A4FA0050E618 /* sha1.c */; };
 		6EC6757713A7A4FA0050E618 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6755B13A7A4FA0050E618 /* NSString+URLEncoding.m */; };
-		6EC6757813A7A4FA0050E618 /* OAuth+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6755D13A7A4FA0050E618 /* OAuth+UserDefaults.m */; };
 		6EC6757913A7A4FA0050E618 /* OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6755F13A7A4FA0050E618 /* OAuth.m */; };
 		6EC6758713A7A60A0050E618 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC6758613A7A60A0050E618 /* CFNetwork.framework */; };
 		6EC6758913A7A6130050E618 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC6758813A7A6120050E618 /* Security.framework */; };
@@ -82,8 +81,6 @@
 		6EC6755913A7A4FA0050E618 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
 		6EC6755A13A7A4FA0050E618 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		6EC6755B13A7A4FA0050E618 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
-		6EC6755C13A7A4FA0050E618 /* OAuth+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+UserDefaults.h"; sourceTree = "<group>"; };
-		6EC6755D13A7A4FA0050E618 /* OAuth+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+UserDefaults.m"; sourceTree = "<group>"; };
 		6EC6755E13A7A4FA0050E618 /* OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth.h; sourceTree = "<group>"; };
 		6EC6755F13A7A4FA0050E618 /* OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuth.m; sourceTree = "<group>"; };
 		6EC6756213A7A4FA0050E618 /* OAuthTwitterCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthTwitterCallbacks.h; sourceTree = "<group>"; };
@@ -226,8 +223,6 @@
 				6EC6755013A7A4FA0050E618 /* Crypto */,
 				6EC6755A13A7A4FA0050E618 /* NSString+URLEncoding.h */,
 				6EC6755B13A7A4FA0050E618 /* NSString+URLEncoding.m */,
-				6EC6755C13A7A4FA0050E618 /* OAuth+UserDefaults.h */,
-				6EC6755D13A7A4FA0050E618 /* OAuth+UserDefaults.m */,
 				6EC6755E13A7A4FA0050E618 /* OAuth.h */,
 				6EC6755F13A7A4FA0050E618 /* OAuth.m */,
 				69E70E80148460BA004A66CA /* DEHTTPRequest.h */,
@@ -342,7 +337,6 @@
 				6EC6757513A7A4FA0050E618 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
 				6EC6757613A7A4FA0050E618 /* sha1.c in Sources */,
 				6EC6757713A7A4FA0050E618 /* NSString+URLEncoding.m in Sources */,
-				6EC6757813A7A4FA0050E618 /* OAuth+UserDefaults.m in Sources */,
 				6EC6757913A7A4FA0050E618 /* OAuth.m in Sources */,
 				6EC6759813A7A79C0050E618 /* MainWindowController.m in Sources */,
 				69E70E82148460BA004A66CA /* DEHTTPRequest.m in Sources */,
