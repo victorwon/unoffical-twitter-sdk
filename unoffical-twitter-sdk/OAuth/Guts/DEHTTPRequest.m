@@ -109,6 +109,7 @@
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
     self.error = error;
+    self.requestFinished = YES;
 }
 
 
